@@ -72,10 +72,7 @@ question_list.append(QQuestion('День рождения бутерброда',
 question_list.append(QQuestion('Самый популярный покемон в России', 'Мью', 'Пикачу', 'хз не шарю', 'чармандер'))
 app = QApplication([])
 
-RadioGroupBox = QGroupBox('Варианты ответов')
 
-Pbutton = QPushButton('Ответить')
-question = QLabel('Самый сложный вопрос в мире!')
 
 Pbutton.clicked.connect(click_OK)
 
